@@ -19,3 +19,27 @@ Morgan - 로그를 남겨줌
 helmet - 기초보안담당함
 cookieParser - 쿠키를 다룰 수 있음
 bodyParser - form데이터를 서버로 받아와서 활용가능함.
+
+## **Module & Router [ 2.8 ]** (복습용)
+
+ES 6 모듈 사용법
+
+export default app; → import app from "./app";
+
+export const 변수명; → import { 변수명 } from "./파일명";
+
+Router
+
+express.Router();
+
+라우트를 카테고리별로 쪼개서 묶을 수 있음.
+
+그럼 주소가 /user/~~~ /video/ ~~~ 이런식으로 나뉠 수 있음.
+
+## MVC
+
+MVC 패턴(구조)
+
+M(Model): data(데이터)
+V(View): how does the data look(데이터가 어떻게 생겼는지)
+C(Controller): function that looks for the data(데이터를 보여주는 함수)
